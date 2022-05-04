@@ -57,7 +57,7 @@ body {
 }
 
 .title {
-  font: 700 1.875rem var(--title-font);
+  font: 700 var(--title-font) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
@@ -79,16 +79,16 @@ body {
 }
 
 .divider-1 {
-  height: 2px;
+  height: 1px;
   background: linear-gradient(
     270deg,
-    hsla(var(--hue), 36%, 57%, 1) 0%,
-    hsla(var(--hue), 65%, 88%, 0.34) 100%
+    hsla(var(--hue), 36%, 57%, 1),
+    hsla(var(--hue), 65%, 88%, 0.34)
   );
 }
 
 .divider-2 {
-  height: 2px;
+  height: 1px;
   background: linear-gradient(
     270deg,
     hsla(var(--hue), 65%, 88%, 0.34),
@@ -109,7 +109,7 @@ body {
 }
 
 .section {
-  padding: calc(5rem+var(--header-height)) 0;
+  padding: calc(5rem + var(--header-height)) 0;
 }
 
 .section .title {
@@ -125,7 +125,7 @@ body {
 }
 
 .section header strong {
-  color: var(--base-color)
+  color: var(--base-color);
 }
 
 #header {
@@ -142,7 +142,7 @@ body {
 }
 
 #header.scroll {
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -178,7 +178,7 @@ nav ul li {
 }
 
 nav ul li a {
-  transition: color 0.3s;
+  transition: color 0.2s;
   position: relative;
 }
 
@@ -189,7 +189,7 @@ nav ul li a.active {
 
 
 nav ul li a::after {
-  content: " ";
+  content: '';
   width: 0%;
   height: 2px;
   background: var(--base-color);
@@ -202,7 +202,7 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after,
-nav ul li a.active:after {
+nav ul li a.active::after {
   width: 100%;
 }
 
@@ -231,19 +231,17 @@ nav.show .menu {
   top: 0;
   left: 0;
   
-}
-nav.show .menu ul {
-  display: grid
-}
-
-nav.show .menu {
   display: grid;
   place-content: center;
 }
+nav.show .menu ul {
+  display: grid;
+}
 
-nav show ul.grid {
+nav.show ul.grid {
   gap: 4rem;
 }
+
 /*====  toggle menu ============================ */
 .toggle {
   color: var(--base-color);
@@ -269,7 +267,9 @@ nav.show div.icon-close {
 }
 
 /*====  HOME ============================ */
-
+#home {
+  overflow: hidden;
+}
 
 #home .container {
   margin: 0;
@@ -385,6 +385,8 @@ nav.show div.icon-close {
 #testimonials .container {
   margin-left: 0;
   margin-right: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 #testimonials header {
@@ -407,9 +409,9 @@ nav.show div.icon-close {
 }
 
 #testimonials blockquote p span {
-  font: 700 3rem serif;
+  font: 700 2.5rem serif;
   position: absolute;
-  top: -0.5rem;
+  top: -0.375rem;
   left: -1.875rem;
   color: var(--base-color);
 }
@@ -508,7 +510,7 @@ footer .social a {
 }
 
 footer .social a:hover {
-  transform: translateY(-7px);
+  transform: translateY(-8px);
 }
 
 /*====  Back to top ============================ */
