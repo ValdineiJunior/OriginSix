@@ -19,7 +19,7 @@
 ### 💻 Live Preview
 
 - [Netlify](https://genuine-tulumba-2ef91c.netlify.app/)
-- [Vercel](https://origin-six-three.vercel.app/)
+- [Vercel](https://valdineijunior.github.io/originsix/)
 
 ### 📚 Technologies used
 
