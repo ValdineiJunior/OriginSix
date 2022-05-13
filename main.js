@@ -107,3 +107,18 @@ window.addEventListener('scroll', function () {
   backToTop()
   activateManuAtCurrentSection()
 })
+
+// dark mode
+const html = document.querySelector('html')
+const darkTheme = document.querySelector('#header .dark-theme')
+const lightTheme = document.querySelector('#header .light-theme')
+
+const swiperTheme = document.querySelectorAll('#header>div')
+
+for (const element of swiperTheme) {
+  element.addEventListener('click', function () {
+    darkTheme.classList.toggle('show')
+    lightTheme.classList.toggle('show')
+    html.classList.toggle('dark-mode')
+  })
+}
