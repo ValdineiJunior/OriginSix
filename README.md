@@ -1,7 +1,4 @@
 # originsix
-
-<img src="src="https://github.com/ValdineiJunior/originsix/blob/main/assets/Dark-mode.png" alt="screenshot">
-                                                                                                           
                                                                                                            
                                                                                                            <p align="center">
   <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
