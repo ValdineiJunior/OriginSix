@@ -1,19 +1,24 @@
-# originsix
-### 📱 Preview
-
-<p align="center">
-  <img alt="OriginSix" src="https://github.com/ValdineiJunior/originsix/blob/main/assets/Dark-mode.png" alt="screenshot" width="100%">
-</p>
-
-### 💻 Live Preview
-
-- [Dark theme](https://valdineijunior.github.io/originsix/)
+# Originsix
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
+
+### 📱 Preview
+
+<p align="center">
+  <a href="https://valdineijunior.github.io/originsix/">
+  <img alt="OriginSix" src="https://github.com/ValdineiJunior/originsix/blob/main/assets/Dark-mode.png" alt="screenshot" width="100%">
+    </a>
+</p>
+
+### 💻 Live Preview
+
+- https://valdineijunior.github.io/originsix/
+
+
 
 ## 🚀 Tecnologias
 
