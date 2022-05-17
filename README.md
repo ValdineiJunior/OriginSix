@@ -9,14 +9,14 @@
 ### 📱 Preview
 
 <p align="center">
-  <a href="https://valdineijunior.github.io/originsix/">
-  <img alt="OriginSix" src="https://github.com/ValdineiJunior/originsix/blob/main/assets/Dark-mode.png" alt="screenshot" width="100%">
+  <a href="https://valdineijunior.github.io/Originsix/">
+  <img alt="OriginSix" src="https://github.com/ValdineiJunior/Originsix/blob/main/assets/Dark-mode.png" alt="screenshot" width="100%">
     </a>
 </p>
 
 ### 💻 Live Preview
 
-- https://valdineijunior.github.io/originsix/
+- https://valdineijunior.github.io/Originsix/
 
 
 
